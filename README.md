@@ -1,13 +1,15 @@
-PROJECT TITLE
 AWS EC2 To S3 with Versioning
 
 Overview
+
 Stand up aws environment via terraform in which we can ssh to an ec2 instance and perform aws cli actions on a versioned s3 bucket.
 
 Example:
+
 This project demonstrates deploying an AWS VPC using Terraform. It includes a bastion host with AWS CLI installed in a public subnet configured with IAM policy, connected to an S3 bucket via a VPC gateway endpoint.
 
 Architecture
+
 Services used: VPC, Subnets, EC2, S3, IAM, Internet Gateway
 Tools: (Terraform, AWS CLI, Git)
 
@@ -63,14 +65,6 @@ There should be the new and old version of test.txt.
 
 Teardown
 terraform destroy
-
-Project Structure
-List the file tree so it’s easy to understand. Example:
-
-.
-├── main.tf
-├── variables.tf
-└── README.txt
 
 Key Learnings
 
